@@ -7,13 +7,11 @@
 
 * [Base File (Starting Point)](https://github.com/wohu8292/SeleniumWebTesting_Portfolio_DemoProject/blob/main/src/test/java/testComponents/BaseTest.java)
 
-  * This is the starting point of automation. Method for driver and browser type initialization is defined here and will be run automatically before each test method execution because I put testNG annotation (@BeforeMethod(alwaysRun=true)).
-    
-  * createed method for test data interpretation (JSON->String->JavaObject) and screenshot here for convenience because test file is inheriting it. 
-  
+  * initialize driver. It will be started before each test method
+      
 * [Regression Test](https://github.com/wohu8292/SeleniumWebTesting_Portfolio_DemoProject/blob/main/src/test/java/tests/TestPractice.java)
 
-  * Regression test for the process from login to checkout with assertion.
+  * Regression test of the process from login to checkout.
 
 * [Negative Test](https://github.com/wohu8292/SeleniumWebTesting_Portfolio_DemoProject/blob/main/src/test/java/tests/ErrorValidation.java)
 
@@ -21,21 +19,15 @@
   
 * [Page Objects](https://github.com/wohu8292/SeleniumWebTesting_Portfolio_DemoProject/tree/main/src/main/java/pageObjects)
 
-  * Page Objects to seperate selectors and layouts from test performing.
+  * Page objects classes.
   
 * [Utility](https://github.com/wohu8292/SeleniumWebTesting_Portfolio_DemoProject/blob/main/src/main/java/abstractComponents/Utility.java)
 
-  * Commonly used methods by page object classes such as explicit wait or navigation link
-
-* [etc (Data file, Property, Report...](https://github.com/wohu8292/SeleniumWebTesting_Portfolio_DemoProject/tree/main/src/main/java/resources)
-  
-  * I initialized browser type in a key-value form in the property file.
-  * extent report
-  * JSON data file
+  * Commonly used methods (explicit wait or navigation link)
 
 --------------
 
-### 2.What I've learned
+### 2.etc
 
 * [What I've learned](https://github.com/wohu8292/SeleniumWebTesting_Learning)
 
